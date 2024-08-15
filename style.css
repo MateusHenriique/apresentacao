@@ -1,11 +1,18 @@
 * {
-    text-align: center;
+    font-family: monospace;
     color: white;
 }
 
 body {
-    background-color: rgb(155, 154, 154);
-    background-image: url(R.jpeg);
+    background-color: rgb(125, 1, 1);
+    background-image: url(imagens/background/background.png);
+    background-position: center;
+    background-size: 100%;
+    transition: 40s;
+}
+
+body:hover {
+    background-position: bottom center;
 }
 
 p, h1, h2, h3 {
@@ -13,37 +20,122 @@ p, h1, h2, h3 {
 }
 
 main {
-    width: auto;
+    width: 1000px;
     height: auto;
-    background-color: rgba(0, 0, 0, 0.644);
-    border-radius: 20px;
+    margin: auto;
+    margin-top: 20px;
+    background-color: rgba(44, 44, 44, 0.842);
+    border-radius: 10px;
+    transition: 0.5s;
+    box-shadow: 5px 5px 8px black;
 
 }
 
-button {
+main:hover {
+    width: 1020px;
+}
 
+img.logo-fiap {
+    animation: pulse 3s infinite;
     width: 300px;
-    height: 80px;
-    border-radius: 25px;
-    background-color: rgba(0, 0, 0, 0.582);
 }
 
-img.icone {
-    width: 50px;
+@keyframes pulse {
+    0%{
+        width: 300px;
+    }
+    50%{
+        width: 305px;
+    }
+}
+
+div.cabessario {
+    width: 985px;
+    height: auto;
+    margin: auto;
+    display: flex;
+    background-color: rgba(85, 85, 85, 0.621);
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+div.cabessario:hover {
+    width: 100%;
+}
+
+div.dados {
+
+    text-align: left;
+}
+
+.txt{
+    transition: 0.5s;
+    font-size: larger;
+}
+
+.txt:hover {
+    font-size: x-large;
+}
+
+div.contacts {
+    display: flex;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.275);
+}
+
+.icons {
+    width: 30px;
     transition: 0.2s;
 }
 
-img.icone:hover {
-    width: 70px;
+.icons:hover {
+    width: 31px;
 }
 
-button.volta{
-    width: 60px;
-    height: 35px;
-    background-color: rgba(255, 255, 255, 0.295);
-    float: left;
+div.technologies {
+    width: 400px;
+    margin: auto;
+    margin-top: 20px;
 }
 
-img.volta{
-    width: 30px;
+img.technologies {
+    width: 50px;
+}
+
+div.container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+div.formacoes {
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: rgba(85, 85, 85, 0.621);
+    border-radius: 10px;
+    width: 480px;
+    transition: 0.5s;
+}
+
+div.formacoes:hover {
+    width: 1000px;
+}
+
+img.institutos {
+    width: 20px;
+    margin-right: 5px;
+}
+
+div.inftec {
+    margin-right: 10px;
+    background-color: rgba(85, 85, 85, 0.621);
+    border-radius: 10px;
+    width: 480px;
+    transition: 0.5s;
+}
+
+div.inftec:hover {
+    width: 1000px;
 }
