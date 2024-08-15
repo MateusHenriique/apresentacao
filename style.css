@@ -6,13 +6,9 @@
 body {
     background-color: rgb(125, 1, 1);
     background-image: url(imagens/background/background.png);
+    background-attachment: fixed;
     background-position: center;
     background-size: 100%;
-    transition: 40s;
-}
-
-body:hover {
-    background-position: bottom center;
 }
 
 p, h1, h2, h3 {
@@ -38,6 +34,7 @@ main:hover {
 img.logo-fiap {
     animation: pulse 3s infinite;
     width: 300px;
+
 }
 
 @keyframes pulse {
@@ -68,7 +65,12 @@ div.dados {
     text-align: left;
 }
 
+h1.title {
+    font-size: xx-large;
+}
+
 .txt{
+    margin-left: 10PX;
     transition: 0.5s;
     font-size: larger;
 }
@@ -81,6 +83,7 @@ div.contacts {
     display: flex;
     width: 100px;
     height: 30px;
+    margin-left: 10px;
     border-radius: 10px;
     background-color: rgba(255, 255, 255, 0.275);
 }
