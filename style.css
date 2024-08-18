@@ -188,6 +188,7 @@ img.curiosities {
 }
 
 img.curiosities:hover {
+    width: 960px;
 }
 
 h1.fim {
