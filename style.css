@@ -16,7 +16,7 @@ p, h1, h2, h3 {
 }
 
 main {
-    width: 1000px;
+    width: 1010px;
     height: auto;
     margin: auto;
     margin-top: 20px;
@@ -28,7 +28,7 @@ main {
 }
 
 main:hover {
-    width: 1020px;
+    width: 1030px;
 }
 
 img.logo-fiap {
@@ -47,7 +47,7 @@ img.logo-fiap {
 }
 
 div.cabessario {
-    width: 995px;
+    width: 1000px;
     height: 300px;
     margin: auto;
     display: flex;
