@@ -47,8 +47,8 @@ img.logo-fiap {
 }
 
 div.cabessario {
-    width: 985px;
-    height: auto;
+    width: 990px;
+    height: 300px;
     margin: auto;
     display: flex;
     background-color: rgba(85, 85, 85, 0.621);
